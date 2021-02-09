@@ -6,7 +6,7 @@
 //  Copyright © 2020 marty-suzuki. All rights reserved.
 //
 
-import Foundation
+import QuartzCore.CoreAnimation
 
 final class CAAnimationDelegateProxy: NSObject, CAAnimationDelegate {
 
