@@ -45,6 +45,9 @@
 		9D00EA3F20E9F30D00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D00EA4420E9F31E00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D00EA4520E9F31F00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E449022525D288E50039AF8C /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449022425D288E50039AF8C /* Package.swift */; };
+		E449022625D288E50039AF8C /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449022425D288E50039AF8C /* Package.swift */; };
+		E449022725D288E50039AF8C /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449022425D288E50039AF8C /* Package.swift */; };
 		EDECABFE23D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */; };
 		EDECABFF23D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */; };
 		EDECAC0023D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */; };
@@ -82,6 +85,7 @@
 		9D00EA4120E9F31900D820FE /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		9D00EA4220E9F31900D820FE /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		9D00EA4320E9F31900D820FE /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		E449022425D288E50039AF8C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAAnimationDelegateProxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +145,7 @@
 		37BD758E20A5D050009219F2 = {
 			isa = PBXGroup;
 			children = (
+				E449022425D288E50039AF8C /* Package.swift */,
 				9D00EA3E20E9F30D00D820FE /* TheAnimation.h */,
 				9D00EA4020E9F31900D820FE /* Resource */,
 				07239C2220B733490016F553 /* Source */,
@@ -384,6 +389,7 @@
 				07239C4A20B733490016F553 /* TimingFunction.swift in Sources */,
 				07239C3220B733490016F553 /* TransitionAnimation.swift in Sources */,
 				07239C3B20B733490016F553 /* AnimationGroup.swift in Sources */,
+				E449022625D288E50039AF8C /* Package.swift in Sources */,
 				07239C4120B733490016F553 /* BasicAnimation.swift in Sources */,
 				07239C4720B733490016F553 /* AnimationKeyPaths.swift in Sources */,
 			);
@@ -403,6 +409,7 @@
 				07239C4B20B733490016F553 /* TimingFunction.swift in Sources */,
 				07239C3320B733490016F553 /* TransitionAnimation.swift in Sources */,
 				07239C3C20B733490016F553 /* AnimationGroup.swift in Sources */,
+				E449022725D288E50039AF8C /* Package.swift in Sources */,
 				07239C4220B733490016F553 /* BasicAnimation.swift in Sources */,
 				07239C4820B733490016F553 /* AnimationKeyPaths.swift in Sources */,
 			);
@@ -422,6 +429,7 @@
 				07239C4920B733490016F553 /* TimingFunction.swift in Sources */,
 				07239C3120B733490016F553 /* TransitionAnimation.swift in Sources */,
 				07239C3A20B733490016F553 /* AnimationGroup.swift in Sources */,
+				E449022525D288E50039AF8C /* Package.swift in Sources */,
 				07239C4020B733490016F553 /* BasicAnimation.swift in Sources */,
 				07239C4620B733490016F553 /* AnimationKeyPaths.swift in Sources */,
 			);
